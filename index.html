@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>EVERYBODY CAN FLY</title>
+</head>
+<body class="bg-dark">
+    <!-- Navegation -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#arriba"><img src="assets/img/android-chrome-512x512.png" width="50px" alt=""></a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light active" aria-current="page" href="#">INICIO</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">DESTINOS</a>
+                <ul class="dropdown-menu  bg-light">
+                  <li><a class="dropdown-item text-dark" href="#nacional"><img class="background" src="assets/img/icons/earth-americas-solid.svg" width="25px" alt=""> NACIONAL</a></li>
+                  <li><a class="dropdown-item text-dark" href="#internacional"><img src="assets/img/icons/earth-europe-solid.svg" width="25px" alt=""> INTERNACIONAL</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#paquetes">PAQUETES</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contacto">CONTACTO</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Banner (imagene con texto) -->
+    
+    <header>
+        <div class="banner">
+            <figure>
+                <h1>EVERYBODY CAN FLY</h1>
+                <img class="banner__tamaño" src="assets/img/bg_banner.jpg" width="100%" height="71%" alt="">
+                <h5>Vuela con Nosotros y disfuta de los paisajes que nos ofrece nuestra hermosa tierra</h5>
+              </figure>
+        </div>
+    </header>
+
+    <div>
+      <a href="#" id="arriba"> <i class="fas fa-3x fa-arrow-circle-up" ></i></a>
+    </div>
+
+    <!-- Destino (dos opciones: nacional e internacional (card: infromacion del lugar seleccionado)) -->
+
+
+    <section id="nacional">
+      <h2 class="nacional_subtitulo">DESTINOS NACIONALES</h2>
+      <div class="mt-4 mx-1 row row-cols-1 row-cols-md-2 row-cols-lg-4 ">
+        <div class="col mb-2">
+          <div id="mostrar" class="card">
+            <img style="cursor:pointer"  src="assets/img/NACIONAL/isla_de_pascua.jpg" class="card-img-top" height="194px" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">ISLA DE PASCUA</h6>
+              <p style="display: none;" id="text-card" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. dolore veniam asperiores incidunt sunt aliquam nesciunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div id="atacama" class="card">
+            <img style="cursor:pointer" src="assets/img/NACIONAL/atacama.jpg" class="card-img-top" height="194px" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">ATACAMA</h6>
+              <p id="text-card-atacama" style="display: none;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. dolore veniam asperiores incidunt sunt aliquam nesciunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div id="frutillar" class="card">
+            <img style="cursor:pointer" src="assets/img/NACIONAL/frutillar.jpg" class="card-img-top" height="194px" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">FRUTILLAR</h6>
+              <p id="text-card-frutillar" style="display: none;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. dolore veniam asperiores incidunt sunt aliquam nesciunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div id="torre_paine" class="card">
+            <img style="cursor:pointer" src="assets/img/NACIONAL/torres_del_paine.jpg" class="card-img-top" height="194px" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">TORRES DEL PAINE</h6>
+              <p  id="text-card-torresDelPaine" style="display: none;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. dolore veniam asperiores incidunt sunt aliquam nesciunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div>
+      <img class="mt-5" src="assets/img/bg-br.jpg" width="100%" height="400px" alt="">
+    </div>
+
+
+
+    <section id="internacional">
+      <h2 class="internacional_subtitulo">DESTINOS INTERNACIONALES</h2>
+      <div class="mt-4 mx-1 row row-cols-1 row-cols-md-2 row-cols-lg-4" >
+        <div class="col mb-2">
+          <div id="venecia" class="card">
+            <img style="cursor:pointer" src="assets/img/INTERNACIONAL/venecia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">VENECIA</h6>
+              <p id="text-card-venecia" style="display: none;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. dolore veniam asperiores incidunt sunt aliquam nesciunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div id="madrid" class="card">
+            <img style="cursor:pointer" src="assets/img/INTERNACIONAL/madrid.jpg" class="card-img-top" height="208px" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">MADRID</h6>
+              <p id="text-card-madrid" style="display: none;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. dolore veniam asperiores incidunt sunt aliquam nesciunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div id="sydney" class="card">
+            <img style="cursor:pointer" src="assets/img/INTERNACIONAL/sydney.jpg" class="card-img-top" height="208px" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">SYDNEY</h6>
+              <p id="text-card-sydney" style="display: none;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. dolore veniam asperiores incidunt sunt aliquam nesciunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div id="tokyo" class="card">
+            <img  style="cursor:pointer" src="assets/img/INTERNACIONAL/tokyo.jpg" class="card-img-top" height="208px" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">TOKYO</h6>
+              <p id="text-card-tokyo" style="display: none;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. dolore veniam asperiores incidunt sunt aliquam nesciunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div>
+      <img class="mt-5" src="assets/img/bg-br-2.jpg" width="100%" height="400px" alt="">
+    </div>
+
+    <!-- Paquetes (card con info hotel, dias de estadia, habitaciones, cantidad de personas.) -->
+
+    <section id="paquetes">
+      <h2 class="internacional_subtitulo">PAQUETES</h2>
+      <div class="mt-4 mx-1 row row-cols-1 row-cols-md-2 row-cols-lg-4" >
+        <div class="col mb-2">
+          <div class="card">
+            <img  src="assets/img/NACIONAL/isla_de_pascua.jpg" class="card-img-top" height="194px" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">ISLA DE PASCUA</h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Hostal: Rey sol </li>
+              <li class="list-group-item">Estadia: 3 Dias y 4 noches</li>
+              <li class="list-group-item">Habitacion: Doble</li>
+              <li class="list-group-item">PAQUETE PARA DOS PERSONAS</li>
+
+            </ul>
+            <div class="card-body">
+              <button  id="botonCompra" onclick="comprar()" type="button" class="btn btn-primary mx-1">COMPRAR</button>
+              <button type="button" class="btn btn-light mx-3">$120.000</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- paquete 2 -->
+
+        <div class="col mb-2">
+          <div class="card">
+            <img src="assets/img/NACIONAL/torres_del_paine.jpg" class="card-img-top" height="194px" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">TORRES DEL PAINE</h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Hotel: Las torres </li>
+              <li class="list-group-item">Estadia: 7 Dias y 6 noches</li>
+              <li class="list-group-item">Habitacion: simple</li>
+              <li class="list-group-item">PAQUETE PARA UNA PERSONAS</li>
+
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary mx-1">COMPRAR</button>
+              <button type="button" class="btn btn-light mx-3">$180.000</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- paquete tres -->
+
+        <div class="col mb-2">
+          <div class="card">
+            <img src="assets/img/INTERNACIONAL/venecia.jpg" class="card-img-top" height="194px" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">VENECIA</h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Hotel: Bella arti </li>
+              <li class="list-group-item">Estadia: 10 Dias y 9 noches</li>
+              <li class="list-group-item">Habitacion: Doble pqueña</li>
+              <li class="list-group-item">PAQUETE PARA DOS PERSONAS</li>
+
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary mx-1">COMPRAR</button>
+              <button type="button" class="btn btn-light mx-3">$650.000</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- paquete cuatro -->
+
+        <div class="col mb-2">
+          <div class="card">
+            <img src="assets/img/INTERNACIONAL/tokyo.jpg" class="card-img-top" height="194px"  alt="...">
+            <div class="card-body">
+              <h6 class="card-title">TOKYO</h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Hostal: Keihan Asakusa </li>
+              <li class="list-group-item">Estadia: 20 dias 19 noches</li>
+              <li class="list-group-item">Habitacion: Doble</li>
+              <li class="list-group-item">PAQUETE PARA DOS PERSONAS</li>
+
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary mx-1">COMPRAR</button>
+              <button type="button" class="btn btn-light mx-3">$800.000</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+
+    <div class="bg-form">
+      <h2 id="contacto"class="text-light mb-5 text-center">CONTACTO</h2>
+      <img class="bg__form__img" src="./assets/img/bg_form.jpg" width="100%" alt="">
+    <form onsubmit="myform()" class="row g-3 col-lg-5 bg-light">
+      <div class="col-md-12">
+        <label for="nombre" class="form-label">Nombre</label> 
+        <input type="text" class="form-control" id="nombre" required="required">
+      </div>
+      <div class="col-md-12">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required="required">
+      </div>
+      
+      <div class="col-md-4">
+        <label for="motivo" class="form-label">MOTIVO</label>
+        <select id="inputmotivo" class="form-select" required="required">
+          <option selected></option>
+          <option>Presupuesto</option>
+          <option>Paquetes</option>
+          <option>Consulta</option>
+          <option>Felicitaciones</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+  
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Confirmar
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button id="boton" onclick="enviarDatos()" type="submit" class="btn btn-primary">ENVIAR</button>
+      </div>
+    </form>
+
+    </div>
+
+    <footer>
+        <h4>Todos los derechos reservados</h4>
+        <img class="mx-2" src="assets/img/icons/registered-regular.svg" width="20px" alt="">
+    </footer>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/e74309e629.js" crossorigin="anonymous"></script>
+</body>
+</html>

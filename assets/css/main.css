@@ -1,0 +1,140 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  font-family: "Cinzel", serif !important;
+  font-weight: 500;
+}
+
+.navbar-collapse {
+  z-index: 1;
+}
+
+i {
+  position: fixed;
+  margin-left: 96%;
+  color: white;
+  z-index: 1;
+  box-shadow: rgb(255, 255, 255) 1px -1px 8px;
+  border-radius: 120%;
+  top: 84%;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-weight: bolder;
+  position: absolute;
+  z-index: 1;
+  margin-top: 54px !important;
+  margin-left: 8%;
+  font-size: 2.5rem !important;
+}
+
+h5 {
+  font-family: "Caveat", cursive;
+  font-weight: bolder;
+  position: absolute;
+  z-index: 1;
+  font-size: 1.6rem !important;
+  margin-top: 150px !important;
+  background-color: white;
+  width: 100%;
+  opacity: 80%;
+  text-align: center;
+  padding: 5px;
+}
+
+.banner__tamaño {
+  position: absolute;
+  opacity: 85%;
+  top: 76px;
+}
+
+#nacional {
+  margin-top: 700px;
+}
+
+.nacional_subtitulo {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.internacional_subtitulo {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  margin-top: 248px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card-title {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-family: "Cinzel", serif;
+}
+
+.list-group {
+  font-family: "Cinzel", serif;
+}
+
+footer {
+  background-color: #209CEE;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+footer h4 {
+  color: white;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 1rem;
+  margin-top: 9px;
+}
+
+#contacto {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  margin-top: 150px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.bg__form__img {
+  opacity: 90%;
+  position: absolute;
+  height: 650px;
+}
+
+form {
+  position: relative;
+  width: 73% !important;
+  margin-left: 15% !important;
+  padding: 2%;
+  top: 40px;
+  opacity: 70%;
+}
+
+label {
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */

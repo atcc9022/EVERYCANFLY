@@ -1,0 +1,30 @@
+#contacto{
+    font-family: $fontpage;
+    font-weight: 700;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    font-size: 2.0rem;
+}
+.bg__form__img{
+    opacity: 90%;
+    position: absolute;
+    height: 650px;
+
+}
+
+form{
+    position: relative;
+    width: 73% !important;
+    margin-left: 15% !important;
+    padding: 2%;
+    top: 40px;
+    opacity: 70%;
+}
+
+label{
+    color: black;
+    font-size: 1.4rem;
+    font-family: $fontpage;
+    font-weight: 700;
+}
